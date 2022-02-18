@@ -974,7 +974,7 @@ let el = <Greet age={3} />;
 
 <details>
 <summary>
- `JSX.LibraryManagedAttributes` nuance for library authors
+JSX.LibraryManagedAttributes nuance for library authors
 </summary>
 
 The above implementations work fine for App creators, but sometimes you want to be able to export `GreetProps` so that others can consume it. The problem here is that the way `GreetProps` is defined, `age` is a required prop when it isn't because of `defaultProps`.
