@@ -967,9 +967,7 @@ let el = <Greet age={3} />;
 ```
 
 <details>
-<summary>
-<code>JSX.LibraryManagedAttributes</code> nuance for library authors
-</summary>
+<summary><b><code>JSX.LibraryManagedAttributes</code> nuance for library authors</b></summary>
 
 The above implementations work fine for App creators, but sometimes you want to be able to export `GreetProps` so that others can consume it. The problem here is that the way `GreetProps` is defined, `age` is a required prop when it isn't because of `defaultProps`.
 
@@ -1047,8 +1045,7 @@ const el = <TestComponent name="foo" />;
 
 ## Misc Discussions and Knowledge
 
-<details>
-  <summary>Why does <code>React.FC</code> break <code>defaultProps</code>?</summary>
+<details><summary><b>Why does <code>React.FC</code> break <code>defaultProps</code>?</b></summary>
 
 You can check the discussions here:
 
@@ -2503,7 +2500,7 @@ declare module 'use-untyped-hook' {
 ```
 
 <details>
-<summary><b>For instance, the [useDarkMode hook](https://github.com/donavon/use-dark-mode) exports the functions that follows a similar structure.</b></summary>
+<summary><b>For instance, the <a href="https://github.com/donavon/use-dark-mode">useDarkMode hookL</a> exports the functions that follows a similar structure.</b></summary>
 
 ```js
 // inside src/index.js
