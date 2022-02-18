@@ -253,7 +253,7 @@ import ReactDOM from "react-dom";
 
 <details>
 
-<summary><b>Explanation<b></summary>
+<summary><b>Explanation</b></summary>
 
 Why `allowSyntheticDefaultImports` over `esModuleInterop`? [Daniel Rosenwasser](https://twitter.com/drosenwasser/status/1003097042653073408) has said that it's better for webpack/parcel. For more discussion check out <https://github.com/wmonk/create-react-app-typescript/issues/214>
 
