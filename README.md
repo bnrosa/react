@@ -524,9 +524,7 @@ function DelayedEffect(props: { timerMs: number }) {
 ```
 
 <details>
-<summary>
-Solution to the above example
-</summary>
+<summary><b>Solution to the above example</b></summary>
 
 ```tsx
 function DelayedEffect(props: { timerMs: number }) {
