@@ -582,7 +582,7 @@ doSomethingWith(divRef.current);
 Note that you are opting out of type safety here - you will have a runtime error if you forget to assign the ref to an element in the render, or if the ref-ed element is conditionally rendered.
 
 <details>
-<summary><b>Tip: Choosing which <code>HTMLElement</code> to use<b></summary>
+<summary><b>Tip: Choosing which <code>HTMLElement</code> to use</b></summary>
   
   
 Refs demand specificity - it is not enough to just specify any old `HTMLElement`. If you don't know the name of the element type you need, you can check [lib.dom.ts](https://github.com/microsoft/TypeScript/blob/v3.9.5/lib/lib.dom.d.ts#L19224-L19343) or make an intentional type error and let the language service tell you:
@@ -2500,7 +2500,7 @@ declare module 'use-untyped-hook' {
 ```
 
 <details>
-<summary><b>For instance, the <a href="https://github.com/donavon/use-dark-mode">useDarkMode hookL</a> exports the functions that follows a similar structure.</b></summary>
+<summary><b>For instance, the <a href="https://github.com/donavon/use-dark-mode">useDarkMode hook</a> exports the functions that follows a similar structure.</b></summary>
 
 ```js
 // inside src/index.js
