@@ -587,9 +587,7 @@ Note that you are opting out of type safety here - you will have a runtime error
 
 <details>
 <summary>
-  
-  Tip: Choosing which `HTMLElement` to use
-  
+Tip: Choosing which `HTMLElement` to use 
 </summary>
   
   
