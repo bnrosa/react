@@ -973,11 +973,9 @@ let el = <Greet age={3} />;
 ```
 
 <details>
-  <summary>
-  
-   `JSX.LibraryManagedAttributes` nuance for library authors
-   
-   </summary>
+<summary>
+`JSX.LibraryManagedAttributes` nuance for library authors
+</summary>
 
 The above implementations work fine for App creators, but sometimes you want to be able to export `GreetProps` so that others can consume it. The problem here is that the way `GreetProps` is defined, `age` is a required prop when it isn't because of `defaultProps`.
 
@@ -1467,9 +1465,7 @@ Of course, if you're making any sort of significant form, [you should use Formik
 
 <details>
 <summary>
-
 **What about `InputEvent`?**
-
 </summary>
 
 You've probably noticed that there is no `InputEvent`. This is because it is not supported by Typescript as the event itself has no fully browser support and may behave differently in different browsers. You can use `KeyboardEvent` instead.
@@ -1797,11 +1793,9 @@ export const FancyButton = React.forwardRef<Ref, Props>((props, ref) => (
 ```
 
 <details>
-  <summary>
-    
-    Side note: the `ref` you get from `forwardRef` is mutable so you can assign to it if needed.
-    
-  </summary>
+<summary>
+Side note: the `ref` you get from `forwardRef` is mutable so you can assign to it if needed.
+</summary>
 
 This was done [on purpose](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/43265/). You can make it immutable if you have to - assign `React.Ref` if you want to ensure nobody reassigns it:
 
@@ -2524,9 +2518,7 @@ declare module 'use-untyped-hook' {
 
 <details>
 <summary>
-
 For instance, the [useDarkMode hook](https://github.com/donavon/use-dark-mode) exports the functions that follows a similar structure.
-
 </summary>
 
 ```js
